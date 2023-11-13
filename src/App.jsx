@@ -52,7 +52,7 @@ import { Footer, Header } from './components'
 import { Outlet } from 'react-router-dom'
 
 function App() {
-  console.log("hi");
+  
   const [loading, setLoading] = useState(true)
   const dispatch = useDispatch()
 
