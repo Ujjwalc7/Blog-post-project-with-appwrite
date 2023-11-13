@@ -7,7 +7,6 @@ import parse from 'html-react-parser'
 
 const Post = () => {
   const [post, setPost] = useState(null)
-  console.log(post);
   const {slug} = useParams()
   const navigate = useNavigate()
 

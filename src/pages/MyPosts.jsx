@@ -9,7 +9,6 @@ const AllPosts = () => {
   const userId = useSelector(state => state.auth.userData.$id)
     const [posts, setPosts] = useState(null)
     const navigate = useNavigate()
-    console.log('hi');
     useEffect(() => {
       const queries = [Query.equal("userId", userId)]
         service.getPosts(queries)
